@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instituto de Capacitación</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Instituto Crearte</a>
+    <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\cropped-invertido.jpg" alt="Logo Instituto" width="40" height="40" class="me-2">
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="mision.html">Misión y Visión</a></li>
+  
+        <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sucursales">Sucursales</a></li>
+        <li class="nav-item"><a class="nav-link" href="#formulario">Información</a></li>
+        
+    </ul>
+    
+
+
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<header class="bg-primary text-white text-center p-5">
+  <h1>Bienvenidos a Crearte</h1>
+  <h1>Intituto de Capacitación</h1>
+  <p>¡Aprende desde casa con nuestros cursos online!</p>
+</header>
+
+<!-- Sección Cursos -->
+<section id="cursos" class="container my-5">
+  <h2 class="text-center mb-4">Nuestros Cursos</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\lenguajes-programacion-unsplash.jpg" class="card-img-top" alt="Curso 1">
+        <div class="card-body">
+          <h5 class="card-title">Curso de Programación</h5>
+          <p class="card-text">Duración: 3 meses<br>Precio: $150.000 mensual</p>
+        <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalProgramacion">
+        Ver malla curricular
+      </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\para-que-sirve-el-marketing-digital.jpg" class="card-img-top" alt="Curso 2">
+        <div class="card-body">
+          <h5 class="card-title">Marketing Digital</h5>
+          <p class="card-text">Duración: 2 meses<br>Precio: $120.000 mensual</p>
+           <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalMarketing">
+        Ver malla curricular
+      </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\dis-grafico.jpg" class="card-img-top" alt="Curso 3">
+        <div class="card-body">
+          <h5 class="card-title">Diseño Gráfico</h5>
+          <p class="card-text">Duración: 4 meses<br>Precio: $180.000 mensual</p>
+           <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalDiseno">
+        Ver malla curricular
+      </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sucursales" class="bg-light p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Nuestras Sucursales</h2>
+    <div class="row">
+
+      <!-- Sucursal Centro -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\Instituto-Educación-Secundaria-Rejas-07.jpg" class="card-img-top" alt="Sucursal Centro">
+          <div class="card-body">
+            <h5 class="card-title">Sucursal Centro</h5>
+            <p class="card-text">
+              Dirección: Calle Falsa 123<br>
+              Tel: (123) 456-7890
+            </p>
+            <h6>Cursos que se imparten:</h6>
+            <ul>
+              <li>Programación Web</li>
+              <li>Diseño Gráfico</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sucursal Norte -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\instituto-mariamoliner-k9GB-U2101231535943e5F-366x256@El Norte.jpg" class="card-img-top" alt="Sucursal Norte">
+          <div class="card-body">
+            <h5 class="card-title">Sucursal Norte</h5>
+            <p class="card-text">
+              Dirección: Av. Libertad 456<br>
+              Tel: (321) 654-0987
+            </p>
+            <h6>Cursos que se imparten:</h6>
+            <ul>
+              <li>Marketing Digital</li>
+              <li>Ofimática</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sucursal Online -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\Videoconferencia-clases-online_opt.png" class="card-img-top" alt="Sucursal Online">
+          <div class="card-body">
+            <h5 class="card-title">Sucursal Online</h5>
+            <p class="card-text">
+              Modalidad: 100% en línea<br>
+              Disponibilidad nacional
+            </p>
+            <h6>Cursos que se imparten:</h6>
+            <ul>
+              <li>Todos los cursos disponibles</li>
+              <li>Acceso 24/7 a la plataforma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Formulario de Contacto -->
+<section id="formulario" class="container my-5">
+  <h2 class="text-center mb-4">Solicita Información</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control" id="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="curso" class="form-label">Curso de interés</label>
+      <select class="form-select" id="curso">
+        <option>Programación</option>
+        <option>Marketing Digital</option>
+        <option>Diseño Gráfico</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  &copy; 2025 Instituto de Capacitación. Todos los derechos reservados.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Modal Programación Web -->
+<div class="modal fade" id="modalProgramacion" tabindex="-1" aria-labelledby="modalProgramacionLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProgramacionLabel">Malla Curricular - Programación Web</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Fundamentos de programación</li>
+          <li>HTML, CSS, Bootstrap</li>
+          <li>JavaScript y manipulación del DOM</li>
+          <li>Node.js y Express</li>
+          <li>MongoDB y bases de datos</li>
+          <li>Deploy de aplicaciones web</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Marketing Digital -->
+<div class="modal fade" id="modalMarketing" tabindex="-1" aria-labelledby="modalMarketingLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalMarketingLabel">Malla Curricular - Marketing Digital</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Introducción al Marketing Digital</li>
+          <li>SEO y posicionamiento en buscadores</li>
+          <li>Publicidad en redes sociales (Facebook, Instagram, TikTok)</li>
+          <li>Email marketing y automatización</li>
+          <li>Google Ads y analítica web</li>
+          <li>Estrategia de contenidos</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Diseño Gráfico -->
+<div class="modal fade" id="modalDiseno" tabindex="-1" aria-labelledby="modalDisenoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDisenoLabel">Malla Curricular - Diseño Gráfico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Fundamentos del diseño visual</li>
+          <li>Teoría del color y tipografía</li>
+          <li>Adobe Photoshop y Illustrator</li>
+          <li>Diseño de logotipos y branding</li>
+          <li>Diseño editorial y digital</li>
+          <li>Proyecto final de identidad visual</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button onclick="scrollToTop()" class="btn-volver-arriba" title="Volver arriba">↑</button>
+<script>
+  // Mostrar botón solo al hacer scroll
+  const btn = document.querySelector(".btn-volver-arriba");
+
+  window.addEventListener("scroll", () => {
+    btn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  btn.style.display = "none"; // Oculto al cargar
+
+  // Función suave para volver arriba
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+/* === ESTILOS GENERALES === */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  color: #003366;
+  font-weight: 700;
+}
+
+/* === ESTILO DE SECCIONES === */
+section {
+  padding: 60px 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* === BOTONES === */
+.btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #00509e;
+  border-color: #00509e;
+}
+
+/* === NAVEGACIÓN === */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.05rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* === BOTÓN VOLVER ARRIBA === */
+#btnTop {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 999;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  display: none;
+  transition: background-color 0.3s;
+}
+
+#btnTop:hover {
+  background-color: #00509e;
+}
+
+/* === PIE DE PÁGINA === */
+footer {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* === PERSONALIZACIÓN PARA MISIÓN/VISIÓN (opcional) === */
+body.mision {
+  background-color: #eaf0f6;
+}
+
+body.mision .container {
+  background-color: #ffffff;
+}
+.card-title {
+  color: #003366;
+}
+
+.card-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+body.mision {
+  background-image: url"C:\Users\estefani\OneDrive - INACAP\DISEÑO Y PROGRAMACIÓN\Maria cortes-Estefani villarroel 18-07\vision (1).jpg";
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* Estilos exclusivos para la página de Misión y Visión */
+body.mision {
+  background-image: url('img/fondo-mision.jpg'); /* Cambia si usas otro nombre o carpeta */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container.mision-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+body.mision h1 {
+  font-size: 2.2rem;
+  color: #00509e;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #00509e;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+body.mision .card {
+  border-radius: 16px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+body.mision .card:hover {
+  transform: translateY(-5px);
+}
+
+body.mision .card-title {
+  font-size: 1.5rem;
+  color: #003366;
+  font-weight: 600;
+}
+
+body.mision .card-text {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+body.mision .card img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.btn-volver-arriba {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0056b3;
+  color: white;
+  font-size: 24px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-volver-arriba:hover {
+  background-color: #003d80;
+  transform: scale(1.1);
+}
+.card-img-top {
+  height: 200px;           /* Ajusta a la altura que quieras */
+  object-fit: cover;       /* Recorta la imagen para que se vea uniforme */
+  width: 100%;             /* Que se adapte al ancho del card */
+}
